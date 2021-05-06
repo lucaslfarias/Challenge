@@ -1,7 +1,7 @@
 # Challenge
 
 1-STEP:  
-    Fazer fork desse repositorio, clona-lo na sua maquina e fazer os passos a seguir.
+    Fazer fork desse repositorio, clona-lo na sua maquina e fazer os passos a seguir.Cada um deve criar sua branch para desenvolver a atividade.
     obs: Para duvidas sobre como trabalhar o git, Erick estara disponivel. 
 
 2-STEP:
