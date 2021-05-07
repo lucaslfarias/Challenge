@@ -10,7 +10,7 @@
       2) O que é um algoritmo?
       3) O que significa ‘concatenar’?
       4) O que é 'Pseudocódigo'?
-      5)  Interprete o algoritmo abaixo e assinale qual é o tipo de operador lógico que está sendo utilizado:
+      5)  Interprete o algoritmo abaixo e escreva qual é o tipo de operador lógico que está sendo utilizado:
 
             algoritmo "Operadores"
 
