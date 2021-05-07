@@ -1,13 +1,16 @@
 #!/bin/bash
 echo "Welcome to the my shell script."
 #para mostrar a data 
-date
+sleep 1
+#mostrando a data e hora
+echo "This is the date: $(date)"
 
-expr 39 + 61
+sleep 1 
+#calculo basico de adicao
+echo "This is the sum: $(expr 39 + 61)"
 
-expr 3 \* 4
+sleep 2
 
-printf "A area do retangulo e: \$area"
+#calculo basico da area de uma retangulo
 
-
-DATE=""date +%m%d%y""
+echo "A area do retangulo de 4x3 e: $( expr 3 \* 4 )"
