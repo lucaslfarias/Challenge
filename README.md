@@ -1,16 +1,22 @@
+
 # Challenge
 
 1-STEP:  
     Fazer fork desse repositorio, clona-lo na sua maquina e fazer os passos a seguir.Cada um deve criar sua branch para desenvolver a atividade.
-    obs: Para duvidas sobre como trabalhar o git, Erick e Davi estarao disponivel. 
+    obs: Para duvidas sobre como trabalhar o git, Erick estara disponivel. 
 
 2-STEP:
   Responder as perguntas a seguir neste documento:
-      1) Onde as variáveis ficam armazenadas?
-      2) O que é um algoritmo?
-      3) O que significa ‘concatenar’?
-      4) O que é 'Pseudocódigo'?
-      5)  Interprete o algoritmo abaixo e escreva qual é o tipo de operador lógico que está sendo utilizado:
+      
+        1) Onde as variáveis ficam armazenadas?
+        R=  Em memoria RAM
+        2) O que é um algoritmo
+        R= E uma sequencia logica de passos para solucionar algum problema   
+        3) O que significa ‘concatenar’?
+        R=  Ligacao, conexao ou uni dados logicos
+        4) O que é 'Pseudocódigo'?
+        R=  E uma representacao de um algoritimo, e usado para facilitar o entendimento de logica de programacao
+        5)  Interprete o algoritmo abaixo e assinale qual é o tipo de operador lógico que está sendo utilizado:
 
             algoritmo "Operadores"
 
@@ -28,10 +34,32 @@
 
                 fimalgoritmo
 
+        R= operador lógico ou 
+
             obs: PARA AS PERGUNTAS ACIMA NAO SE PODE PEDIR AJUDA A NENHUM CO-WORKER.CASO TENHA DUVIDA REVISITE O MATERIAL DISPONIBILIZADO E SE SINTAM LIVRE PARA PESQUISAR NA WEB.
   
  3-STEP: Escreva um pseudoc-codigo para ordenar a troca de um pneu.
-   
+            
+            algoritmo "TrocandoPneu"
+                
+                var
+                  p1: caractere
+                  
+                    inicio
+                    
+                    escreval ("Qual pneu vai trocar?: ")
+                    leia(p1)
+                    escreval ("O pneu que foi trocado e= ", p1)
+
+                fimalgoritmo    
+
+
+
+
+
+
+
+
  4-STEP: Crie um arquivo executavel que obedeca as seguintes acoes:
    
     De as boas vindas ao usuario
@@ -43,7 +71,4 @@
     obs: Linguagem programacional requerida: SHELL
     
  5-STEP: A entrega dessa atividade so sera aceita via pullrequest.
-        obs: Para duvidas sobre como trabalhar o git, Erick e Davi estarao disponiveis. 
-
-  
-  
+        obs: Para duvidas sobre como trabalhar o git, Erick estara disponivel. 
