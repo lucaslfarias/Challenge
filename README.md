@@ -43,7 +43,7 @@
     obs: Linguagem programacional requerida: SHELL
     
  5-STEP: A entrega dessa atividade so sera aceita via pullrequest.
-        obs: Para duvidas sobre como trabalhar o git, Erick e Davi estarao disponiveis. 
+        obs: Para duvidas sobre como trabalhar o git, Erick e Davi estarao disponiveis
 
   
   
