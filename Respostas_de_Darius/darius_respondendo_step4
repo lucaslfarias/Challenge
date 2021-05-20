@@ -1,0 +1,78 @@
+#!/bin/sh
+USER_NAME=Darius
+echo "Hello YOU! Please type in your name so I can welcome you:"
+read USER_NAME
+		
+sleep 2
+		
+echo "Hello $USER_NAME!, I am about to reveal many cool things to you! With your help of course."
+		
+sleep 2
+		
+echo "Such as:"
+sleep 2
+echo "1. The date of today."
+sleep 2
+echo "2. I am going to ask you to add two numbers so I can calculate the sum. Just insert the pure integers. Ex.
+ \"2,3,6,9,...\""
+sleep 3
+echo "3. I am going to To calculate the area of a rectangle for you with dimensions 3x4."
+sleep 3
+echo "Let's jump in shall we? type 'yes' to continue:"
+read answer
+if [[ $answer == "yes" ]]; then
+	echo "Let's do this."
+else
+	echo "Bye."
+	exit
+fi
+sleep 3
+echo "FYI 'For your information' this is the date of today:"
+	
+sleep 3
+	
+date
+	
+sleep 3
+echo "I want you to enter two numbers for me to add to act as a calculator:"
+sleep 2
+	
+echo "Enter the first number:"
+	
+read num1
+	
+echo "Enter the second number:"
+	
+read num2
+	
+sum=`expr $num1 + $num2`
+	
+echo "The sum of these two values is $sum"
+sleep 2
+echo "Cool right?"
+sleep 2
+echo "Now, let's calculate an area of a rectangle."
+sleep 3
+echo "FYI the area of a rectangle is equal to the multiplication of the height by the length."
+sleep 3
+echo "You already know this though."
+sleep 3
+echo "My rectangle has sides that are 4cm long and 3cm high."
+sleep 2
+echo "How do we calculate this?"
+sleep 2
+echo "I'll show you."
+sleep 2
+echo "I'm going to need you to insert the measurements of the rectangle. But just the pure integer values please
+."
+sleep 2
+echo "Inform me of the height please, here:"
+read height
+echo "Inform me of the length plese, here:"
+read length
+echo "The area of the rectangle is $(($height*$length))"
+sleep 2
+echo "Cool right?"
+sleep 2
+echo "I'll see you later alligator."
+exit

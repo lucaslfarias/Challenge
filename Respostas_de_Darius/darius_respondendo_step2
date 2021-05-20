@@ -1,0 +1,15 @@
+1) Memória RAM, pois é a memória que armazena os dados
+2) Algoritmos são a base do processo de desenvolvimento de software e fazem parte das ferramentas pelas quais programadores criam estratégias para fracionar problemas em etapas e processos que podem ser traduzidos computacionalmente. 
+3) Concatenar significa juntar texto ou string formando uma string so. 
+4) Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa a quem o escreve, de forma a ser entendida por qualquer pessoa) sem necessidade de conhecer a sintaxe de nenhuma linguagem de programação.
+5) var numero1 = 10;
+var numero2 = 1;
+console.log('1 exemplo do operador:')
+if (numero1 < numero2){
+    var resultado = numero1 + " < " + numero2
+} if(numero1 > numero2){
+  var resultado = numero1 + ' > ' + numero2
+  } if (numero1 == numero2) {
+    var resultado = numero1 + ' = ' +  numero2
+  }
+  console.log(resultado) 
