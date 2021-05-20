@@ -1,0 +1,12 @@
+algoritimo "variaveis"
+	var	
+		idade: inteiro
+		altura: real
+		nome: caractere
+		casado: logico
+inicio	
+	idade <- 30
+	altura <- 1.81
+	nome <- "Ricardo"
+	casado <- verdadeiro
+fimalgoritmo 
